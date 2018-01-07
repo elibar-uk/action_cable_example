@@ -44,7 +44,8 @@ group :development, :test do
   gem 'rspec-its'
   gem 'rspec-activemodel-mocks'
   gem 'rails-controller-testing'
-  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+  gem 'shoulda-matchers', require: false
 end
 
 group :development do
